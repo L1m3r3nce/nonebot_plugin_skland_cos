@@ -1,0 +1,20 @@
+[project]
+name = "nonebot-plugin-skland-cos"
+version = "0.1.0"
+description = "从森空岛社区获取明日方舟COS图并随机发送"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+dependencies = [
+    "nonebot2>=2.0.0",
+    "nonebot-adapter-onebot>=2.0.0",
+    "httpx>=0.24.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.nonebot]
+plugins = ["nonebot_plugin_skland_cos"]
